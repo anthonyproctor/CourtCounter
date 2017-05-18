@@ -18,6 +18,14 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(3);
     }
 
+    public void addTwoForTeamA(View v) {
+        displayForTeamA(2);
+    }
+
+    public void addOneForTeamA(View v) {
+        displayForTeamA(1);
+    }
+
     /**
      * Displays the given score for Team A.
      */
