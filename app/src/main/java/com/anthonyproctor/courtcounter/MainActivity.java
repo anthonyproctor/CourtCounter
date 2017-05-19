@@ -17,15 +17,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreeForTeamA(View v) {
-        displayForTeamA(3);
+        scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
     }
 
     public void addTwoForTeamA(View v) {
-        displayForTeamA(2);
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
     }
 
     public void addOneForTeamA(View v) {
-        displayForTeamA(1);
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
     }
 
     /**
